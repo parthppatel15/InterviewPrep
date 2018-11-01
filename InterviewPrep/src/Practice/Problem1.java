@@ -25,6 +25,18 @@ public class Problem1
 		
 	}
 	
-	
+	public static void main(String[] args)
+	{
+		Problem1 test = new Problem1();
+		int testarr[] = {1,4,5,7};
+		int	target = 6;
+		int[] total = test.twoSums(testarr, target);
+		for(int i = 0; i <total.length;i++)
+		{
+			System.out.println(total[i]);
+		}
+		
+		
+	}
 	
 }
