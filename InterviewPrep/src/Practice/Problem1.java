@@ -35,7 +35,7 @@ public class Problem1
 		{
 			System.out.println(total[i]);
 		}
-		
+		// testing git out 
 		
 	}
 	
